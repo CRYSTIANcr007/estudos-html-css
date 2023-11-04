@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicios overflow</title>
+    <style>
+        div{
+            height: 200px;
+            width: 20%;
+            margin: 10px;
+            padding: 5px;
+            display: inline-block;
+            border: 1px solid black;
+            float: left;
+        }
+        #div1{
+            overflow: visible;
+        }
+        #div2{
+            overflow: hidden;
+        }
+        #div3{
+            overflow: scroll;
+        }
+        #div4{
+            overflow: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="div1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deleniti fuga reprehenderit odio corporis quas impedit pariatur! A velit harum accusantium voluptatibus quisquam nemo, blanditiis distinctio dolorum adipisci consequuntur cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+    <div id="div2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deleniti fuga reprehenderit odio corporis quas impedit pariatur! A velit harum accusantium voluptatibus quisquam nemo, blanditiis distinctio dolorum adipisci consequuntur cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+    <div id="div3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deleniti fuga reprehenderit odio corporis quas impedit pariatur! A velit harum accusantium voluptatibus quisquam nemo, blanditiis distinctio dolorum adipisci consequuntur cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. !</div>
+    <div id="div4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deleniti fuga reprehenderit odio corporis quas impedit pariatur! A velit harum accusantium voluptatibus quisquam nemo, blanditiis distinctio dolorum adipisci consequuntur cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. !</div>
+</body>
+</html>

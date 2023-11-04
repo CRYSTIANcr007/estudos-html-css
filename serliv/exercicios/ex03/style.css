@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+li{
+    background-color: #ccc;
+}
+li ul{
+    height: 0;
+    transition: height .5s;
+    overflow: hidden;
+}
+li:hover ul{
+    padding: 10px;
+    height: 50px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elemento float</title>
+    <style>
+        #div-1{
+            background-color: yellow;
+            padding: 15px;
+            border: 1px solid #ff0000;
+            margin: 15px;
+            width: 150px;
+        }
+        #div-2{
+            background-color: yellow;
+            padding: 15px;
+            border: 1px solid #ff0000;
+            margin: 15px;
+            width: 150px;
+            float: right;
+        }
+        #div-3{
+            background-color: yellow;
+            padding: 15px;
+            border: 1px solid #ff0000;
+            margin: 15px;
+            width: 150px;
+            clear: both;
+        }
+        
+        header{
+            background-color: #ccc;
+            height: 50px;
+        }
+        nav{
+            width: 30%;
+            background-color: #ffa500;
+            height: 60px;
+            float: left;
+        }
+        main{
+            width: 70%;
+            height: 100px;
+            background-color: #ff7300;
+            float: right;
+        }
+        footer{
+            height: 25px;
+            background-color: blue;
+            clear: both;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="div-1"><p>div 1</p></div>
+    <div id="div-2"><p>div 2</p></div>
+    <div id="div-3"><p>div 3</p></div>
+
+
+    <header>header</header>
+    <nav>nav</nav>
+    <main>main</main>
+    <footer>footer</footer>
+</body>
+</html>

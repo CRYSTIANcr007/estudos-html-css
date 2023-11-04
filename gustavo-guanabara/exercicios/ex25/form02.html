@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu formulario "completo" </title>
+</head>
+<body>
+    <h1>formulario muito completo</h1>
+    <form action="cadastro.php" autocomplete="on">
+        <p>
+            <label for="id-nome">nome: </label>
+            <input type="text" name="nome" id="id-nome" required autocomplete="name" >
+        </p>
+        <p>
+            <label for="id-sobrenome">sobrenome</label>
+            <input type="text" name="sobrenome" id="id-sobrenome" required autocomplete="family-name">
+        </p>
+        <p>
+            <label for="id-senha">senha: </label>
+            <input type="password" name="senha" id="id-senha" required autocomplete="new-password" >
+        </p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar formulario">
+    </form>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estudos de formularios</title>
+    <style>
+        #formulario{
+            width: 300px;
+            margin: 50px auto;
+        }
+        #ilogin{
+            margin-top: 15px;
+            padding: 5px;
+        }
+        input{
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #ipass{
+            margin-top: 15px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo de formulario</h1>
+    <form action="cadastro.php" method="get" id="formulario" autocomplete="on">
+
+        <fieldset>
+            <legend>login</legend>
+            <div>
+                <label for="ilogin">login: </label>
+                <input type="email" name="login" id="ilogin" required autocomplete="email" size="20" autofocus>
+            </div>
+
+            <div>
+                <label for="ipass">senha:</label>
+                <input type="password" name="pass" id="ipass" required autocomplete="new-password">
+            </div>
+        </fieldset>
+    </form>
+    
+
+</body>
+</html>

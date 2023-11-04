@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+body{
+    background-image: linear-gradient(90deg, rgb(231, 42, 42), rgb(129, 175, 54))
+}
+
+h1{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-decoration: none;
+}

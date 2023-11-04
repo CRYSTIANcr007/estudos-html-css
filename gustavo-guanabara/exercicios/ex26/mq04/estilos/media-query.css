@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/*
+320px — 480px: dispositivos móveis
+
+481px — 768px: iPads, tablets
+
+769px — 1024px: telas pequenas, laptops
+
+1025px — 1200px: desktops, telas grandes
+
+1201px e acima —  telas muito grandes, TVs
+*/
+
+
+@media print {
+    main{
+        border: 1px solid black;
+        width: 60%;
+    }
+    main::after{
+        content: 'essa impressao foi criadar por crystian rodrigues';
+        text-shadow: none;
+        color: black;
+    }
+    h1{
+        color:black;
+        text-shadow: none;
+    }
+    #telefone{
+        display: none;
+        }
+    #tablet{
+        display: none;
+    }
+    #desktop{
+        display: none;
+    }
+    #televisao{
+        display: none;
+    }
+    #impressora{
+        display: block;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) { /*tabets*/
+    body{
+        background: url(/imagens/back-tablet.jpg) no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    #telefone{
+        display: none;
+        }
+    #tablet{
+        display: block;
+        margin: auto;
+    }
+    #desktop{
+        display: none;
+    }
+    #televisao{
+        display: none;
+    }
+    #impressora{
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {/*desktop*/   
+    body{
+        background: url(/imagens/back-pc.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+    #telefone{
+        display: none;
+    }
+    #tablet{
+        display: none;
+    }
+    #desktop{
+        display: block;
+        margin: auto;
+    }
+    #televisao{
+        display: none;
+    }
+    #imopressora{
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 1201px) {                       /*telas grandes*/
+    body{
+        background: url(/imagens/back-tv.jpg) no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    #telefone{
+        display: none;
+    }
+    #tablet{
+        display: none;
+    }
+    #desktop{
+        display: none;
+    }
+    #televisao{
+        display: block;
+        margin: auto;
+    }
+    #impressora{
+        display: none;
+    }
+
+}

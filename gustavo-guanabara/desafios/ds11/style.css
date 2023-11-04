@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+table{
+    margin: auto;    
+    width: 50vh;
+    height: 40vh;
+}
+
+td{
+    border: 1px solid black ;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0.6px 0.6px 2px rgba(0, 0, 0, 0.534);
+    padding: 1px;
+    margin: 1px;
+}

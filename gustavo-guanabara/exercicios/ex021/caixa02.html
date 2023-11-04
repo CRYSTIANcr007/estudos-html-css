@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+
+        }
+        header{
+            background-color: white;
+            padding: 30px;
+            margin: 10px;
+            padding-bottom: 40px;
+
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 35px 15px;
+
+        }
+        article{
+            background-color: lightgrey;
+            padding: 1px 28px;
+        }
+        footer > p{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 5px;
+            border: 1px;
+            margin: 1px -8px;
+        }
+        article > aside{
+            background-color: rgb(124, 124, 124);
+            margin: 0px -28px;
+        }
+
+        nav{
+            background-color: rgb(78, 78, 78);
+            padding: 3px;
+            border-radius: 5px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.473);
+
+        }
+        nav > a{
+            color: white;
+            font-weight: bolder;
+            text-decoration: none;
+            margin: 0px 15px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        section > p{
+            font: bold 2em 'serif' ;
+        }
+        section > article > p{
+            padding: 15px;
+        }
+        section > article{
+            border-radius: 25px 15px;
+        }
+        .artigo{
+            text-align: center;
+            font-weight: 300;
+            font-family: serif;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>estudos de Grouping tags</h1>
+        <nav>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <p>
+                Esportes, Política e Tecnologia
+            </p>
+        </section>
+        <section id="assuntos">
+            <article>
+                <h2 style="text-align: center;">noticias sobre o brasil.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non earum eaque nesciunt iusto magni, fuga suscipit voluptates recusandae soluta consequuntur qui. Sapiente asperiores corrupti magni eius ullam numquam, totam distinctio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo veritatis sequi eaque minima consectetur voluptatum, accusantium architecto qui obcaecati harum fuga! Nobis, sapiente libero impedit sit ex quidem repudiandae nemo.</p>
+                <aside>
+                    <p class="artigo">artigo escrito por jose barbosa da silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            desenvolvido por Crystian rodrigues
+        </p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
