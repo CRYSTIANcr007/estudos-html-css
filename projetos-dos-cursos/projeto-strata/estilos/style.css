@@ -4,7 +4,7 @@
 body{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     color: #07070788;
-    line-height: 2;
+    line-height: 2.1;
 }
 a{
     transition: color .2s;   
@@ -34,7 +34,7 @@ header{
     font-weight: bold;
 }
 .link-a{
-    color: rgba(255, 255, 255, 0.39);
+    color: rgba(255, 255, 255, 0.5);
 }
 .link-a:hover{
     text-decoration: none;
