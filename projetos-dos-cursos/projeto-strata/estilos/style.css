@@ -3,12 +3,28 @@
 
 body{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    color: #07070788;
+    color: #070707;
     line-height: 2.1;
 }
+
+                                                            /* PSEUDO classes de links /  LINKS */
+
 a{
-    transition: color .2s;   
+    text-decoration: none;
+    transition: color .2s, border .2s linear;
+    color: #239b7b;
+    padding: 5px;
+    border-bottom: solid;
+    border-bottom-color: transparent;
 }
+a:hover{
+    color: #cf0000fb;
+    border-bottom: 8px solid;
+    border-bottom-color: rgba(255, 0, 0, 0.185);
+
+}
+
+                                                            /* HEADER E SEUS LINKS */
 
 header{
     position: fixed;
@@ -22,6 +38,21 @@ header{
     background-position: right;
     background-size: cover;
 }
+
+
+.link-a{
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom: 5px dotted;
+    padding: 0px;
+}
+.link-a:hover{
+    border-bottom-color: transparent; 
+    color: rgb(39, 99, 99);
+
+}
+
+                                                                /* TITULOS DE H1 */
+
 .main-header-title{
     text-align: right;
     font-size: 1.7em;
@@ -33,19 +64,85 @@ header{
     color: white;
     font-weight: bold;
 }
-.link-a{
-    color: rgba(255, 255, 255, 0.5);
+
+h1{
+    font-size: 40px;
+    margin-bottom: 1em;
 }
-.link-a:hover{
-    text-decoration: none;
-    color: #49bf9d;
-    transition: 1s;
+h2{
+    font-size: 35px;
+    margin-bottom: 1em;
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+h4{
+    font-size: 25px;
+    margin-bottom: 1em;
+}
+h5{
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+h6{
+    font-size: 15px;
+    margin-bottom: 1em;
 }
 
 
+
+                                                                /* inicio do main */
 main{
     margin-left: 35%;
     width: 65%;
     padding: 100px 50px;
     box-sizing: border-box;
+}
+
+                                                                /* FORMATAÇÃO DOS TIPOS DE TEXTOS QUE TEM NO MAIN */
+
+sup, sub{
+    font-size: 12px;
+}
+
+blockquote{
+    border-left: 10px solid #b8b8b8;
+    background-color: #e9e9e9;
+    padding: 10px 25px;
+    margin: 0px 5px;
+
+}
+
+code{
+    font-weight: monospace;
+    background-color: #dadada;
+    border: .15em solid #8e8e8e;
+}
+pre code{
+    display: block;
+}
+
+ol, ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-position: inside;
+}
+
+.ol-alternate li{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.ol-alternate li:last-child{
+    border: none;
+}
+
+.ul-icons{
+    display: flex;
+    list-style: none;
+}
+
+.ul-icons li{
+    font-size: 25px;
+    padding: 15px;
 }
